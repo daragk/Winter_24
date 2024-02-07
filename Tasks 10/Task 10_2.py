@@ -1,7 +1,6 @@
 import openpyxl
 from openpyxl import Workbook
 
-res = []
 dct = {}
 wb = Workbook()
 wb = openpyxl.load_workbook('test.xlsx')
