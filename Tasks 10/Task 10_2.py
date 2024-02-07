@@ -9,7 +9,6 @@ wb.create_sheet('Sorted')
 #wb.save('test.xlsx')
 
 ws = wb.active
-c = ws['B2']
 for i in range(1,ws.max_row+1):
     dct[ws.cell(row=i, column=1).value] = ws.cell(row=i, column=2).value
 sm = sum(dct.values())
