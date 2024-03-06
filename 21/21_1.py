@@ -1,5 +1,3 @@
-from random import random
-
 import pandas as pd
 from random import random, randint, choice
 
