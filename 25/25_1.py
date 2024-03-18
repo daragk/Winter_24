@@ -16,7 +16,6 @@ class MainWindow(QMainWindow):
     def button_clicked(self):
         self.count += 1
         self.button.setText('clicked ' + str(self.count) + ' times')
-        print(self.count)
 
 
 app = QApplication(sys.argv)
